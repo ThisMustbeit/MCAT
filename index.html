@@ -9,30 +9,50 @@
 <body>
   <main class="page-shell">
     <section class="hero">
-      <p class="eyebrow">MCAT Review System</p>
-      <h1>Focus your study time on what still feels shaky.</h1>
+      <p class="eyebrow">MCAT Study Hub</p>
+      <h1>Pick a subject and keep the weak points in one place.</h1>
       <p class="lede">
-        This repo is set up to collect short, practical notes on topics that need a second pass:
-        weakness points, half-understood concepts, and high-yield reminders worth revisiting.
+        This is a simple personal review site for MCAT topics that need more work. Each page holds
+        quick notes, confusion points, and reminders you want to revisit without digging through files.
       </p>
-      <div class="hero-actions">
-        <a class="button primary" href="./notes/index.html">Open Notes Directory</a>
-      </div>
     </section>
 
-    <section class="card-grid">
-      <article class="info-card">
-        <h2>What goes here</h2>
-        <p>Concept summaries, confusion points, quick corrections, and practice targets.</p>
-      </article>
-      <article class="info-card">
-        <h2>How we'll use it</h2>
-        <p>When you mention a topic in chat, we can turn it into a focused review note in this repo.</p>
-      </article>
-      <article class="info-card">
-        <h2>Why this format helps</h2>
-        <p>Short structured notes make it easier to spot patterns in what needs reinforcement.</p>
-      </article>
+    <section class="subject-panel">
+      <div class="section-heading">
+        <p class="eyebrow">MCAT Sections</p>
+        <h2>Open a subject page</h2>
+      </div>
+
+      <section class="subject-grid">
+        <a class="subject-card" href="./subjects/biology.html">
+          <h3>Biology</h3>
+          <p>Cell systems, physiology, genetics, and body-function weak spots.</p>
+        </a>
+        <a class="subject-card" href="./subjects/biochemistry.html">
+          <h3>Biochemistry</h3>
+          <p>Enzymes, metabolism, amino acids, and pathway notes to tighten up.</p>
+        </a>
+        <a class="subject-card" href="./subjects/general-chemistry.html">
+          <h3>General Chemistry</h3>
+          <p>Stoichiometry, equilibrium, acids and bases, and reaction logic review.</p>
+        </a>
+        <a class="subject-card" href="./subjects/organic-chemistry.html">
+          <h3>Organic Chemistry</h3>
+          <p>Functional groups, mechanisms, spectroscopy, and reaction patterns.</p>
+        </a>
+        <a class="subject-card" href="./subjects/physics.html">
+          <h3>Physics</h3>
+          <p>Forces, energy, fluids, circuits, optics, and equation-based weak areas.</p>
+        </a>
+        <a class="subject-card" href="./subjects/psychology.html">
+          <h3>Psychology</h3>
+          <p>Sleep, learning, cognition, behavior, and high-yield psych terms.</p>
+        </a>
+        <a class="subject-card" href="./subjects/sociology.html">
+          <h3>Sociology</h3>
+          <p>Social structures, identity, institutions, and society-based concepts.</p>
+        </a>
+      </section>
     </section>
   </main>
 </body>
